@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Love Gift 💖</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- Music -->
+  <audio id="bgSong" src="Innum Konjam Neram .mp3" loop></audio>
+
+  <!-- PAGE 1 -->
+  <div id="page1" class="page active pinkPurple">
+    <div class="dots" id="dots1"></div>
+
+    <h1 class="mainTitle">💖 Love Theme 💖</h1>
+    <p class="subTitle">Just for you 😘</p>
+
+    <button class="btn" onclick="goToPage(2)">Next 💌</button>
+  </div>
+
+  <!-- PAGE 2 -->
+  <div id="page2" class="page redPink">
+    <div class="dots" id="dots2"></div>
+
+    <h1 class="mainTitle">my varamae🤌🏻🫂💎</h1>
+
+    <button class="arrowBtn" onclick="goToPage(3)">⬇</button>
+  </div>
+
+  <!-- PAGE 3 -->
+  <div id="page3" class="page pinkPurple">
+    <div class="dots" id="dots3"></div>
+
+    <p class="message">
+      Sorry thangoo🤌🏻 pullaya paaka vara mudiyala😔 <br><br>
+      My Chella thuku alaga gift um thara mudila 😔 <br><br>
+      eannala ivlo tha mah mudijitu🙂 <br><br>
+      pudikum nu naenaikurae🙂
+    </p>
+
+    <button class="btn" onclick="goToPage(4)">Next 💗</button>
+  </div>
+
+  <!-- PAGE 4 -->
+  <div id="page4" class="page darkPink">
+    <div class="dots" id="dots4"></div>
+
+    <p class="message">
+      Eathuku feel pannatha Money😘 <br><br>
+      na un koodae irrupae🫂 <br><br>
+      I Love you my varamaeee😘🫂 <br><br>
+      Happy valentine's day 🌹🫂😘🤌🏻❤️
+    </p>
+
+    <button class="btn stopBtn" onclick="stopMusic()">I Love you mah 💘</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
